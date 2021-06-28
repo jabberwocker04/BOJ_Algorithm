@@ -10,29 +10,23 @@ public class Main_1063_notsolved {
 	public static void main(String[] args) throws Exception {
 		//ŷ
 		
-		Boolean[][] Chess = new Boolean [8][8];
-		
+		boolean[][] Chess = new boolean [8][8];
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		String[] a = st.nextToken().split("");
 		String[] b = st.nextToken().split("");
 		
-		a[0] = what(a[0]);
-		b[0] = what(b[0]);
+		
+		a[0] =  what(a[0]);
+		b[0] =  what(b[0]);
 		
 		int c = Integer.parseInt(st.nextToken());
 		
-		System.out.println(a[0] + a[1]);
-		System.out.println(b[0] + b[1]);
-		
-		
-			Chess[Integer.parseInt(a[0])][Integer.parseInt(a[1])-1] = false;
-			Chess[Integer.parseInt(b[0])][Integer.parseInt(b[1])-1] = false;
-		
-		
+		Chess[8 -Integer.parseInt(a[1])][Integer.parseInt(a[0])] = true;
+		Chess[8 -Integer.parseInt(b[1])][Integer.parseInt(b[0])] = true;
 		for(int i=0; i<8; i++) {
 			for(int j=0; j<8; j++) {
-				System.out.print(Chess[i][j] );
+				System.out.print(Chess[i][j]+" ");
 			}
 			System.out.println("");
 		}
@@ -70,9 +64,8 @@ public class Main_1063_notsolved {
 				break;
 			} // catch
 		}
-	
+		
 	}
-	
 	public static String what(String a) {
 		if(a.equals("A")) {
 			a = "0";
@@ -95,8 +88,13 @@ public class Main_1063_notsolved {
 		return a;
 	}
 	
-	public static void R() {
+	
+	
+	public static boolean R(boolean[][] a, boolean[][] b) {
 		
+		
+		
+		return a, b;
 	}
 	public static void L() {
 			
