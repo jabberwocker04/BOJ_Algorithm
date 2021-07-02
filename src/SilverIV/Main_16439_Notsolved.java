@@ -11,7 +11,7 @@ public class Main_16439_Notsolved {
 		StringTokenizer st = new StringTokenizer(br.readLine());//N M 입력
 		int N = Integer.parseInt(st.nextToken());
 		int M = Integer.parseInt(st.nextToken());
-		int[][]NM = new int[N][M]; 
+		int[][]NM = new int[N][M]; //치킨표
 		
 		int sum = 0;
 		for(int i=0; i<N; i++) {
@@ -21,14 +21,10 @@ public class Main_16439_Notsolved {
 			}
 		} // 인풋입력
 		
-		int[] MAX = new int[3];
-		int[] MAX_N = new int[N];
+		int max = 0;
+		
+		if()
+		
 		System.out.println(sum);
-		for(int i=0; i<N; i++) {
-			;
-			for(int j=0; j<M; j++) {
-				System.out.
-			}
-		}
 	}
 }
