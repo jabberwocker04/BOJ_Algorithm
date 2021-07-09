@@ -3,7 +3,7 @@ package SilverIV;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Main_1676 {
+public class Main_1676_notsolved {
 
 	public static void main(String[] args) throws Exception {// 팩토리얼 0의 개수
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
